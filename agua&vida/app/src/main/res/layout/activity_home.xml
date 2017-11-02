@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context="aguaevida.projeto.mikeias.aguavida.Home">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:onClick="chamarAlarme"
+        android:text="New Button"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:gravity="center"
+
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/sobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="left"
+            android:onClick="onClickMethod"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sobre" />
+
+            <TextView
+                android:id="@+id/textsobre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/sobre"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font_padrao"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/MeuConsumo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickMethod"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnConsumo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/consumo"
+                android:gravity="center"
+                android:onClick="chamaMeuConsumo" />
+
+            <TextView
+                android:id="@+id/textmeuconsumo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:fontFamily="cursive"
+                android:text="@string/consumo"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font_padrao"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/beneficios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickMethod"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnBeneficio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/beneficio"
+                android:gravity="center_horizontal"
+                android:onClick="chamaMeuConsumo" />
+
+            <TextView
+                android:id="@+id/beneficio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:fontFamily="cursive"
+                android:gravity="right"
+                android:text="@string/beneficio"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font_padrao"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
+

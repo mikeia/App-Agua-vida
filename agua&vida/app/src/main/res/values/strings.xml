@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Água é Vida</string>
+    <string name="sobre">Sobre</string>
+    <string name="beneficio">Benefícios</string>
+    <string name="consumo">Meu Consumo</string>
+    <string name="textoSobre">Este aplicativo foi desenvolvido pelo curso de Processos
+        Gerenciais da Unipar – Universidade Paranaense Unidade de Cianorte-PR com o intuito de realizar um projeto de
+        sustentabilidade da matéria de tópicos especiais de gestão do professor Thiago Garcia Martins.
+    \n\n
+        Foi realizada uma pesquisa quantitativa e constatamos que os alunos não fazem a
+        ingestão diária recomendada de água. Assim, idealizamos o projeto “Água é Vida”, que visa estimular o
+        consumo frequente de água.
+    </string>
+    <string name="text">Emagrecimento – Além da redução da retenção de líquidos do corpo,uma vez que coloca os rins para trabalhar, a água também traz sensação de saciedade.Assim, ingerir dois ou três copos antes da refeição ajuda a controlar o apetite.Sem contar que é isenta de calorias. A água não substitui a dieta e exercícios físicos ela é
+apenas um veiculo para melhores resultados.
+\n\n
+Absorção e transporte de nutrientes – A água auxilia na absorção de nutrientes e glicose.
+Além disso, o líquido ajuda no transporte dessas substâncias pela corrente sanguínea e na distribuição para as diversas partes do organismo.
+\n\n
+Desintoxica o corpo – Ela auxilia na prevenção e no tratamento de infecção urinária,
+pois o líquido estimula as idas ao banheiro, o que ajuda a “limpar” o trato urinário.
+\n\n
+Pele bonita – Promove a revitalização das células e mucosas. Na pele,
+isso resulta em uma hidratação de dentro para fora. Portanto, ela constitui o método mais
+barato e eficaz para evitar o ressecamento.
+\n\n
+Regula a temperatura corporal – Durante os exercícios físicos ou quando o clima está muito quente,
+a água do organismo é liberada pela transpiração para regular a temperatura e evitar que nosso organismo esquente demais
+ou sofra alterações térmicas bruscas.
+</string>
+
+    <string name="textoConsumo">Quantidade de água que você ingeriu
+    hoje, baseado no horário, das 09:00 ás 22:00 horas.</string>
+    <string name="vazia" />
+
+</resources>
